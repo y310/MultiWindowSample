@@ -21,6 +21,7 @@
 		461A534418909D88005FDAC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461A532618909D88005FDAC2 /* UIKit.framework */; };
 		461A534C18909D88005FDAC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 461A534A18909D88005FDAC2 /* InfoPlist.strings */; };
 		461A534E18909D88005FDAC2 /* MultiWindowSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 461A534D18909D88005FDAC2 /* MultiWindowSampleTests.m */; };
+		461A535E1890A9F9005FDAC2 /* MWSSubWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461A535D1890A9F9005FDAC2 /* MWSSubWindowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		461A534918909D88005FDAC2 /* MultiWindowSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiWindowSampleTests-Info.plist"; sourceTree = "<group>"; };
 		461A534B18909D88005FDAC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		461A534D18909D88005FDAC2 /* MultiWindowSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiWindowSampleTests.m; sourceTree = "<group>"; };
+		461A535C1890A9F9005FDAC2 /* MWSSubWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWSSubWindowViewController.h; sourceTree = "<group>"; };
+		461A535D1890A9F9005FDAC2 /* MWSSubWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWSSubWindowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				461A533418909D88005FDAC2 /* Main.storyboard */,
 				461A533718909D88005FDAC2 /* MWSViewController.h */,
 				461A533818909D88005FDAC2 /* MWSViewController.m */,
+				461A535C1890A9F9005FDAC2 /* MWSSubWindowViewController.h */,
+				461A535D1890A9F9005FDAC2 /* MWSSubWindowViewController.m */,
 				461A533A18909D88005FDAC2 /* Images.xcassets */,
 				461A532918909D88005FDAC2 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				461A533318909D88005FDAC2 /* MWSAppDelegate.m in Sources */,
+				461A535E1890A9F9005FDAC2 /* MWSSubWindowViewController.m in Sources */,
 				461A532F18909D88005FDAC2 /* main.m in Sources */,
 				461A533918909D88005FDAC2 /* MWSViewController.m in Sources */,
 			);

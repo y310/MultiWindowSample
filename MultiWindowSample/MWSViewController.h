@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface MWSViewController : UIViewController
-
+- (IBAction)openWindow:(id)sender;
 @end
